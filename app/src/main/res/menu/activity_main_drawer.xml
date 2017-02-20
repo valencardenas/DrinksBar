@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_CoctelesC"
+            android:icon="@drawable/ic_action_local_bar"
+            android:title="Cócteles con alcohol" />
+        <item
+            android:id="@+id/nav_CoctelesS"
+            android:title="Cócteles sin alcohol" />
+        <item
+            android:id="@+id/nav_Shots"
+            android:title="Shots" />
+        <item
+            android:id="@+id/nav_Vasos"
+            android:title="Vasos y copas" />
+    </group>
+
+    <item android:title="Communicación">
+        <menu>
+            <item
+                android:id="@+id/nav_Config"
+                android:icon="@drawable/ic_action_settings"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/nav_Compartir"
+                android:icon="@drawable/ic_action_share"
+                android:title="Compartir" />
+        </menu>
+    </item>
+
+</menu>
